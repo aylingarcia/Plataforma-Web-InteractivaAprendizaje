@@ -1,0 +1,9 @@
+.app-main{
+  @apply  h-screen bg-gradient-to-t from-black to-violet-600 flex flex-col
+}
+.content-app{
+  @apply text-white flex justify-center items-center h-screen
+}
+.app-button{
+  @apply border-solid border-2 border-black p-4 bg-gradient-to-l from-fuchsia-600 to-cyan-400 rounded-lg w-40 text-center font-extrabold text-xl
+}

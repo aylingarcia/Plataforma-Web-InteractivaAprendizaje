@@ -1,0 +1,6 @@
+.nav-main{
+  @apply bg-gradient-to-r fixed from-black to-violet-700 text-white font-bold text-xl w-full flex justify-between px-6 items-center h-[60px]
+}
+.nav-link{
+  @apply flex gap-4
+}
