@@ -44,7 +44,11 @@ export const Game = () => {
   };
 
   if (loading) {
-    return <div>Loading...</div>;
+    return (
+      <div className="bg-gradient-to-t from-black to-violet-600 flex flex-col h-screen">
+        Loading...
+      </div>
+    );
   }
 
   if (currentQuestionIndex >= questions.length) {
