@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { Navbar } from "../components/navbar/Navbar";
 import fetchQuestions from "./service/ServiceGame";
 import "./Game.css";
 
@@ -45,7 +44,7 @@ export const Game = () => {
 
   if (loading) {
     return (
-      <div className="bg-gradient-to-t from-black to-violet-600 flex flex-col h-screen">
+      <div className="bg-gradient-to-t from-black to-violet-600 flex flex-col ">
         Loading...
       </div>
     );
@@ -54,7 +53,6 @@ export const Game = () => {
   if (currentQuestionIndex >= questions.length) {
     return (
       <div className="game-main">
-        <Navbar />
         <div className="content-game">
           <h2>Juego terminado</h2>
           <p>Tu puntuación es: {score}</p>
@@ -67,11 +65,10 @@ export const Game = () => {
 
   return (
     <div className="game-main">
-      <Navbar />
       <div className="content-game">
-        <h2 className="text-cyan-400 font-bold text-4xl">
+        <h4 className="text-cyan-400 font-bold text-2xl">
           Pregunta {currentQuestionIndex + 1}
-        </h2>
+        </h4>
         <p className="border-solid border-2 border-cyan-500 p-2 w-[500px] text-center bg-gradient-to-r from-cyan-800 to-violet-600 ">
           {currentQuestion.question}
         </p>

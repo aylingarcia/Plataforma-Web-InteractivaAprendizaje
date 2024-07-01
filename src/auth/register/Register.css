@@ -1,0 +1,9 @@
+.main{
+  @apply bg-gradient-to-t from-black to-violet-600 text-white flex flex-col justify-center items-center h-screen gap-3 text-center
+}
+.form-register{
+  @apply border-solid border-2 border-black p-8
+}
+.content-form{
+  @apply flex flex-col gap-4  
+}

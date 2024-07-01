@@ -1,0 +1,3 @@
+.admin-content{
+  @apply bg-gradient-to-l from-black to-violet-600 h-screen
+}

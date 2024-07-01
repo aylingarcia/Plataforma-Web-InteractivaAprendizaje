@@ -8,7 +8,7 @@ export const Navbar = () => {
       <div>WEB-CHALLENGE</div>
       <div className='nav-link'>
         <Link to='/'>Home</Link>
-        <Link to='/game'>ver puntuacion</Link>
+        <Link to='/login'>Login</Link>
       </div>
     </nav>
   )

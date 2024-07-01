@@ -9,7 +9,7 @@ function App() {
     <div className="app-main">
       <Navbar />
       <div className="content-app">
-        <Link to='/game' className='app-button'> JUGAR</Link>
+        <Link to='/login' className='app-button'> JUGAR</Link>
       </div>
     </div>
   );

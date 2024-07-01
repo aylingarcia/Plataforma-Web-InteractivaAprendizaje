@@ -1,0 +1,12 @@
+.login-main{
+  @apply flex bg-gradient-to-t from-black to-violet-600
+}
+.login-main-one{
+  @apply flex items-center justify-center h-screen w-screen text-center 
+}
+.login-main-two{
+  @apply flex flex-col  border-2 border-solid border-black justify-center items-center text-white p-8 gap-4
+}
+.field{
+  @apply text-black text-center rounded-md
+}

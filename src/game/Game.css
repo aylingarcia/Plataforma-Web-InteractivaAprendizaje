@@ -1,8 +1,6 @@
-.game-main{
-  @apply h-screen bg-gradient-to-t from-black to-violet-600 flex flex-col
-}
+
 .content-game{
-  @apply text-white flex flex-col justify-center items-center h-screen gap-4
+  @apply text-white flex flex-col justify-center items-center gap-4
 }
 .button-game{
   @apply border-solid border-2 border-cyan-500 p-2 w-[250px] bg-gradient-to-r from-purple-900 to-cyan-600 text-center
