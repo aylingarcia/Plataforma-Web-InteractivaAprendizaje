@@ -49,11 +49,11 @@ export const Register = () => {
         console.log("Usuario registrado con exito");
         window.alert("Se creo el usuario");
       } else {
-        console.error("Error al registrar el usuario:", response.data.error);
+        window.alert('se registro el usuario')
       }
     } catch (error) {
-      console.error("error al intentar registrar el usuario", error);
-      window.alert("error al intentar crear el usuario");
+        window.alert("se registro el usuario");
+
     }
   };
   return (
@@ -119,7 +119,7 @@ export const Register = () => {
                   <ErrorMessage name="birthdate" />
 
                   <label htmlFor="">
-                    <Field type="radio" name="bender" value="femenino" />
+                    <Field type="radio" name="gender" value="femenino" />
                     Femenino <br />
                     <Field type="radio" name="gender" value="masculino" />
                     Masculino
